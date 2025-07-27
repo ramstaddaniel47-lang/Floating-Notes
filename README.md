@@ -1,1 +1,30 @@
 # Floating-Notes
+
+How to Use Floating Note
+
+Basic Usage
+Type and edit your notes in the main window. Your note is automatically saved as a new file (with the current date and time) every time you close the app.
+
+Notes Manager
+Click the Notes button at the bottom to open the Notes Manager.
+Save Current Note As...: Enter a name and save the current note with a timestamp.
+New Blank Note Page: Clears the main note area for a fresh note.
+Load Selected Note: Select a note and load it into the main window.
+Delete Selected Note: Select a note and delete it (with confirmation).
+Double-click a note in the list to load it.
+
+Quick Command: Open a Note
+In the main note area, type:
+open(note-name)
+and press Enter.
+This will open the note file with the given name (ignoring the date/time).
+If multiple files match, you’ll get an error listing them.
+If no file matches, you’ll get a “File Not Found” error.
+
+Shortcuts
+Ctrl+X: Show/hide the Floating Note window.
+Ctrl+Shift+Q: Quit the app.
+
+Resizing & Moving
+Drag the window border to resize.
+Hold Ctrl and drag anywhere in the window to move it.
